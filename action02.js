@@ -10,8 +10,8 @@ const octokit = new Octokit({
 
 
 octokit.request('POST /repos/{owner}/{repo}/issues/{issue_number}/labels', {
-    owner: 'EntTangunGHEC',
-    repo: 'KakaoSeminar',
+    owner: 'lemoni77i',
+    repo: 'KakaoGithubActionSeminar',
     issue_number: core.getInput('issue_number'),
     labels: [
       'bug'
